@@ -57,4 +57,4 @@ I am a full-time Master of Technology in Artificial Intelligence Systems student
 - **Pennsylvania State University** — B.S. in Computer Science, Mathematics minor, GPA 3.840/4.000.
 - Experience across AI imaging product requirements, voice-AI implementation, mobile system testing, and independent product delivery.
 
-[LinkedIn](https://www.linkedin.com/in/liu-kairui-657545431)
+[LinkedIn](https://www.linkedin.com/in/kairui-liu-ai-product/)
