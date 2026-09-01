@@ -37,11 +37,11 @@ An independent browser prototype for real-time camera effects, local MediaPipe f
 
 **My role:** interaction model, effect-state architecture, preview-to-capture consistency, non-destructive rendering boundary, asset provenance, and final verification. The public repository contains no employer code, company branding, credentials, internal documents, or real-person media.
 
-### [CodexPulse](https://github.com/Jeffreyliu0131/codex-pulse)
+### [Codex Notch](https://github.com/Jeffreyliu0131/codex-notch)
 
-A read-only macOS-to-iPhone companion for long-running Codex tasks. It explores privacy-safe notification design through opaque identifiers, signed events, replay protection, bounded retention, and generic lock-screen copy.
+A native macOS notch and menu-bar companion for monitoring local and connected-Mac Codex tasks. It groups work across Git worktrees, shows weekly usage, distinguishes explicit approval requests from ordinary input, and surfaces approval-required states through an eight-second notch expansion plus privacy-safe local notifications.
 
-**My role:** notification-first boundary, privacy threat model, data minimization, pairing and revocation behavior, failure states, and acceptance criteria. It is a tested reference implementation, not an official OpenAI integration.
+**My role:** low-interruption interaction model, task and attention-state semantics, approval false-positive boundaries, notification data minimization, public-snapshot safety rules, synthetic QA, and release verification. The current public artifact passes CI but depends on undocumented local Codex implementation details; it does not claim external adoption or an official OpenAI integration.
 
 ## How I build
 
