@@ -1,60 +1,62 @@
 # Kairui Liu
 
-**Technical AI Product Builder · NUS-ISS MTech AIS · Singapore**
+**AI Product Management · Prototyping & Evaluation**
 
-I turn ambiguous AI capabilities into scoped requirements, evaluation criteria, failure boundaries, and production release gates. My work sits between product judgment and technical delivery: defining what an AI system should do, how it should fail safely, and what evidence is strong enough to ship.
+NUS-ISS MTech in Artificial Intelligence Systems · Penn State Computer Science
 
-## What I work on
+I work across product definition and technical prototyping. My experience includes AI camera features at Lightmeta, a team-built voice assistant at Penn State, and independent AI products where I define the problem, direct implementation, and examine the result.
 
-- **AI product definition and evaluation:** system behavior, prompt and policy constraints, bad cases, acceptance criteria, and release gates.
-- **Truthful and reliable product systems:** explicit data boundaries, safe degradation, privacy-aware architecture, and failure recovery.
-- **Human-in-the-loop workflows:** AI proposes or assists; the user retains control over consequential state changes.
-- **Technical product delivery:** translating product decisions into testable web, mobile, voice, and local-first systems.
+**Seeking a full-time Singapore internship · March–August 2027**<br>
+[LinkedIn](https://www.linkedin.com/in/kairui-liu-ai-product/) · [Product & engineering experience](experience.md)
 
-## Selected work
+## Product & engineering experience
 
-### [ThinkBud](https://github.com/Jeffreyliu0131/thinkbud-ai)
+**Lightmeta · Product Intern, App · May–August 2026**<br>
+Translated a hardware-first strategy into an instant-capture experience for LumaQ. Led two camera effects and iPhone Camera Control through launch, with PRDs, scope decisions, and cross-functional reviews. [Selected decisions →](experience.md#lightmeta--ai-camera-product-work)
 
-An AI thinking coach for primary-school learners that uses Socratic prompts instead of revealing answers. Product constraints are enforced through server-side prompt construction, answer-leakage audits, multimodal input, and synthetic conversation tests.
+**Penn State · Industry-sponsored capstone · August–December 2025**<br>
+Led the Azure speech pipeline in a three-person work-instruction assistant project. Integrated a model trained by teammates and supported the move from glasses to a laptop prototype under semester constraints. [My contribution →](experience.md#penn-state--work-instruction-voice-assistant)
 
-**My role:** product mechanism, coaching-policy evolution, prompt and safety constraints, multimodal workflow, QA, and release decisions. Current validation is mainly family testing, so I do not claim broad adoption or measured learning outcomes.
+Earlier: mobile OS issue reproduction at **Xiaomi** and Python debugging support as a **Penn State teaching assistant**.
 
-### [Nianxing](https://github.com/Jeffreyliu0131/nianxing)
+## Selected projects
 
-A local-first action and idea PWA where AI produces a reviewable organization draft and the user confirms every saved change. The system includes offline capture, optional account sync, revision conflict handling, and model-failure fallback.
+### 01 · [ThinkBud](https://github.com/Jeffreyliu0131/thinkbud-ai) — Help the learner do the thinking
 
-**My role:** product loop, local-first and account-isolation boundaries, synchronization semantics, mobile interaction rules, acceptance behavior, and release verification. It is a working prototype, not evidence of external adoption.
+I defined a paper-first maths coach using photo input and one-step prompts, and directed AI-assisted implementation. A key question is how to distinguish **finishing with help from attempting a new problem independently**; the current adult preview makes those stages visible.
 
-### [Stock Portfolio](https://github.com/Jeffreyliu0131/stock-portfolio)
+[Product decisions & iteration](https://github.com/Jeffreyliu0131/thinkbud-ai/blob/main/docs/CASE_STUDY.md) · [Run the demo](https://github.com/Jeffreyliu0131/thinkbud-ai#quick-start)
 
-An iPhone-first portfolio PWA that separates exact financial truth from delayed market data and optional AI interpretation. The product uses decimal calculations, atomic restore rules, explicit missing-data behavior, and a security gate covering the complete dependency tree.
+### 02 · [FoodLens SG](https://github.com/Jeffreyliu0131/foodlens-sg) — Turn restaurant research into a usable choice
 
-**My role:** product scope, PRD and ADR set, architecture, implementation, production release gates, incident diagnosis, and security hardening. The public snapshot uses synthetic data and currently passes 585 automated tests; it makes no investment-performance claim.
+The brief came from my own Thai delivery decision in Singapore: discover beyond familiar recommendations without losing confidence. I set the problem and requirements; AI agents implemented the prototype. **A search result is only a candidate** until missing delivery and budget checks are resolved.
 
-### [FrameText Camera Effects](https://github.com/Jeffreyliu0131/frame-text-demo)
+[Problem & product choices](https://github.com/Jeffreyliu0131/foodlens-sg#why-foodlens-exists) · [Run the demo](https://github.com/Jeffreyliu0131/foodlens-sg#credential-free-review)
 
-An independent browser prototype for real-time camera effects, local MediaPipe face and hand signals, frozen capture snapshots, and non-destructive high-resolution export.
+### 03 · [DecisionTrace](https://github.com/Jeffreyliu0131/DecisionTrace) — Review what a code change puts at risk
 
-**My role:** interaction model, effect-state architecture, preview-to-capture consistency, non-destructive rendering boundary, asset provenance, and final verification. The public repository contains no employer code, company branding, credentials, internal documents, or real-person media.
+I defined the requirements and human review workflow for an AI-built release-evidence checker. Deterministic checks inspect declared files and fields; **semantic suggestions stay advisory**. Its public ThinkBud example shows what the tool found and where the detector falls short.
 
-### [Codex Notch](https://github.com/Jeffreyliu0131/codex-notch)
+[Inspect the public example](https://github.com/Jeffreyliu0131/DecisionTrace#first-real-public-dogfood) · [Run the demo](https://github.com/Jeffreyliu0131/DecisionTrace#quick-start)
 
-A native macOS notch and menu-bar companion for monitoring local and connected-Mac Codex tasks. It groups work across Git worktrees, shows weekly usage, distinguishes explicit approval requests from ordinary input, and surfaces approval-required states through an eight-second notch expansion plus privacy-safe local notifications.
+*These independent prototypes use AI-assisted implementation. Each repository documents its technical verification and current limits; user outcomes remain to be tested.*
 
-**My role:** low-interruption interaction model, task and attention-state semantics, approval false-positive boundaries, notification data minimization, public-snapshot safety rules, synthetic QA, and release verification. The current public artifact passes CI but depends on undocumented local Codex implementation details; it does not claim external adoption or an official OpenAI integration.
+## More work
 
-## How I build
+- [Stock Portfolio](https://github.com/Jeffreyliu0131/stock-portfolio) — Exact daily portfolio calculations before optional AI interpretation.
+- [Codex Notch](https://github.com/Jeffreyliu0131/codex-notch) — An unofficial macOS companion for noticing actionable coding-task changes.
+- [Nianxing · 念行](https://github.com/Jeffreyliu0131/nianxing) — Capture a thought, review the draft, and confirm what gets saved.
+- [FrameText](https://github.com/Jeffreyliu0131/frame-text-demo) — My independent camera-effects demo, with palm tracking and consistent preview-to-export behavior.
 
-I use AI coding agents as implementation and review collaborators. I remain responsible for problem framing, scope, architecture constraints, acceptance criteria, reviewing changes, diagnosing failures, and deciding whether the evidence is strong enough to release. I do not treat generated code or a passing demo as proof of user value without tests, observable behavior, or external validation.
+<details>
+<summary>Other experiments</summary>
 
-## Current focus
+[CodexPulse](https://github.com/Jeffreyliu0131/codex-pulse) · [Subscription Ledger](https://github.com/Jeffreyliu0131/subscription-ledger) · [Taste Language](https://github.com/Jeffreyliu0131/taste-language) · [Object Museum](https://github.com/Jeffreyliu0131/object-museum) · [One Square Kilometre](https://github.com/Jeffreyliu0131/one-square-kilometre) · [Flow Lens](https://github.com/Jeffreyliu0131/flow-lens)
 
-I am a full-time Master of Technology in Artificial Intelligence Systems student at NUS-ISS, seeking a full-time Singapore internship for **March-August 2027** in AI Product, AI Evaluation & Automation, or Applied AI / Product Deployment.
+</details>
 
-## Background
+## Working with me
 
-- **National University of Singapore · NUS-ISS** — MTech in Artificial Intelligence Systems, full-time, expected August 2027.
-- **Pennsylvania State University** — B.S. in Computer Science, Mathematics minor, GPA 3.840/4.000.
-- Experience across AI imaging product requirements, voice-AI implementation, mobile system testing, and independent product delivery.
+My experience spans PRDs, interaction flows, scope trade-offs, cross-functional reviews, Azure speech integration, and prototype evaluation. I use AI coding agents extensively on independent projects; the linked cases distinguish my decisions from AI and team implementation.
 
-[LinkedIn](https://www.linkedin.com/in/kairui-liu-ai-product/)
+Mandarin · English | [Connect on LinkedIn →](https://www.linkedin.com/in/kairui-liu-ai-product/)
