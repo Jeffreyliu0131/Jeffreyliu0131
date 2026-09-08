@@ -1,12 +1,15 @@
 # Kairui Liu
 
-**AI Product Management · Prototyping & Evaluation**
+**AI Products & Engineering**
 
 NUS-ISS MTech in Artificial Intelligence Systems · Penn State Computer Science
 
-I work across product definition and technical prototyping. My experience includes AI camera features at Lightmeta, a team-built voice assistant at Penn State, and independent AI products where I define the problem, direct implementation, and examine the result.
+I’m a computer science graduate and NUS-ISS MTech AIS student building AI products across product design and technical implementation. My experience spans AI camera product work, voice-system integration, and AI-assisted prototyping. I’m interested in how user needs, business constraints, and system architecture shape what gets built.
 
-**Seeking a full-time Singapore internship · March–August 2027**<br>
+**Seeking a full-time Singapore internship · March–August 2027**
+
+AI Product · Applied AI · Product Engineering
+
 [LinkedIn](https://www.linkedin.com/in/kairui-liu-ai-product/) · [Product & engineering experience](experience.md)
 
 ## Product & engineering experience
@@ -57,6 +60,6 @@ I defined the requirements and human review workflow for an AI-built release-evi
 
 ## Working with me
 
-My experience spans PRDs, interaction flows, scope trade-offs, cross-functional reviews, Azure speech integration, and prototype evaluation. I use AI coding agents extensively on independent projects; the linked cases distinguish my decisions from AI and team implementation.
+My work spans product requirements, interaction design, scope trade-offs, Azure speech integration, and prototype evaluation. I pay particular attention to data flow, component responsibilities, and failure behavior. My independent web projects use AI coding agents extensively; my capstone contribution includes hands-on voice integration. The linked cases make the division of work explicit.
 
 Mandarin · English | [Connect on LinkedIn →](https://www.linkedin.com/in/kairui-liu-ai-product/)
