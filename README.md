@@ -26,9 +26,9 @@ Earlier: mobile OS issue reproduction at **Xiaomi** and Python debugging support
 
 ### 01 · [ThinkBud](https://github.com/Jeffreyliu0131/thinkbud-ai) — Help the learner do the thinking
 
-I defined a paper-first maths coach using photo input and one-step prompts, and directed AI-assisted implementation. A key question is how to distinguish **finishing with help from attempting a new problem independently**; the current adult preview makes those stages visible.
+I defined a paper-first learning and thinking coach for primary-school Chinese, maths, and English, and directed AI-assisted implementation. Subject-specific prompts support reasoning, reading, and expression. The adult maths preview examines **finishing with help versus attempting a new problem independently**; that demonstration is one slice of the multi-subject product.
 
-[Product decisions & iteration](https://github.com/Jeffreyliu0131/thinkbud-ai/blob/main/docs/CASE_STUDY.md) · [Run the demo](https://github.com/Jeffreyliu0131/thinkbud-ai#quick-start)
+[Subject policies & scope](https://github.com/Jeffreyliu0131/thinkbud-ai#product-scope-and-current-coverage) · [Product decisions & iteration](https://github.com/Jeffreyliu0131/thinkbud-ai/blob/main/docs/CASE_STUDY.md) · [Run the demo](https://github.com/Jeffreyliu0131/thinkbud-ai#quick-start)
 
 ### 02 · [FoodLens SG](https://github.com/Jeffreyliu0131/foodlens-sg) — Turn restaurant research into a usable choice
 
