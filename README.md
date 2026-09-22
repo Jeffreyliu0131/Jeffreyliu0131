@@ -64,7 +64,7 @@ Delivered a **laptop software prototype**; physical glasses and industrial deplo
 
 - [FoodLens SG](https://github.com/Jeffreyliu0131/foodlens-sg) — Restaurant research with explicit delivery and budget checks before choosing.
 - [DecisionTrace](https://github.com/Jeffreyliu0131/DecisionTrace) — Review product commitments against code evidence; semantic suggestions remain advisory.
-- [Stock Portfolio](https://github.com/Jeffreyliu0131/stock-portfolio) — Exact daily portfolio calculations before optional AI interpretation.
+- [Stock Portfolio](https://github.com/Jeffreyliu0131/stock-portfolio-showcase) — Exact daily portfolio calculations before optional AI interpretation; source and synthetic examples.
 - [Codex Notch](https://github.com/Jeffreyliu0131/codex-notch) — An unofficial macOS companion for noticing actionable coding-task changes.
 - [Nianxing · 念行](https://github.com/Jeffreyliu0131/nianxing) — Capture a thought, review the draft, and confirm what gets saved.
 - [FrameText](https://github.com/Jeffreyliu0131/frame-text-demo) — Independent camera-effects exploration with palm tracking and preview-to-export consistency.
